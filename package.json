@@ -1,0 +1,27 @@
+{
+  "name": "7.2remotecontrol",
+  "version": "1.0.0",
+  "description": "Kahoot-achtige quizapp met laptop-host en telefoon als remote controller.",
+  "homepage": "https://github.com/tobias-Gt1/7.2RemoteControl#readme",
+  "bugs": {
+    "url": "https://github.com/tobias-Gt1/7.2RemoteControl/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tobias-Gt1/7.2RemoteControl.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "server.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "ws": "^8.20.0"
+  }
+}

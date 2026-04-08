@@ -1,11 +1,21 @@
 # 7.2RemoteControl
 
-Plan van aanpak:
-- We bouwen een webapp met WebSockets zodat vragen en antwoorden direct realtime worden gesynchroniseerd.
-- De laptop toont het quizscherm (vraag, timer, tussenstand), zoals bij Kahoot.
-- De telefoon werkt als remote controller waarop spelers antwoorden invoeren of kiezen.
-- Elke speler joint met een code/naam, en antwoorden worden per vraag verwerkt en opgeslagen.
-- De host kan quiz starten, volgende vraag tonen en resultaten per ronde bekijken.
+## Project in het kort
+Quiz It is een Kahoot-achtige quizapp met een laptop-scherm voor de host en een telefoon als remote voor spelers.
 
+## Huidige pagina's
+- `welkom.html`: startscherm met een knop naar de quizselectie.
+- `quizzes.html`: overzicht met klikbare quizkaarten.
+- `index.html`: alternatieve startpagina voor de huidige opzet.
+
+## Doel
+- Vragen en antwoorden realtime synchroniseren via WebSockets.
+- Quizzen starten op de laptop en antwoorden verzamelen via de telefoon.
+- Spelers laten deelnemen met een naam of code.
+
+## Referenties
 - Functional design: https://www.figma.com/community/file/1618574589091253054
 - Planning: https://trello.com/b/pNcM10m1/72
+
+## Documentatie
+- `docs/7.2TO.docx`: bestaande projectnotities en planning.
